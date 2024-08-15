@@ -1,4 +1,4 @@
-$apps = Get-Content "C:\scripts\install_apps\apps.txt"
+$apps = Get-Content "$PSScriptRoot\apps.txt"
 foreach ($app in $apps) {
     winget install --id $app
 }
