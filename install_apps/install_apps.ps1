@@ -14,5 +14,5 @@ if ($choice -eq "1") {
 # Read each line from the chosen file and install it using winget
 $apps = Get-Content $appFile
 foreach ($app in $apps) {
-    winget install --id $app
+    winget install --id $app --accept-source-agreements --accept-package-agreements
 }
