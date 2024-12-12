@@ -1,0 +1,57 @@
+UserName,UserArn,Groups,LastActivity,PoliciesAttached,InlinePolicies
+amir_vitman,arn:aws:iam::076944484853:user/amir_vitman,"aws-eks-user;",Never,"AmazonS3ReadOnlyAccess;",""
+anna_lisitsyna,arn:aws:iam::076944484853:user/anna_lisitsyna,"rnd;",Never,"",""
+anthony_assayah,arn:aws:iam::076944484853:user/anthony_assayah,"noc;",Never,"",""
+app-wave-user,arn:aws:iam::076944484853:user/app-wave-user,"",Never,"s3.wave-s3.lrw;",""
+AuthomizeGlobalUser,arn:aws:iam::076944484853:user/AuthomizeGlobalUser,"",Never,"","AuthomizeGlobalUserPolicy;"
+aws,arn:aws:iam::076944484853:user/aws,"aws-eks-user;",Never,"s3.wave-conf-templates	s3.wave-conf-prod	s3-access-to-data	s3.wave-conf-stage	eks-describe-cluster;",""
+aws-access-for-broker-ci-cd,arn:aws:iam::076944484853:user/aws-access-for-broker-ci-cd,"",Never,"AdministratorAccess;",""
+aws-sam-cli-managed-dev-pipeline-reso-PipelineUser-I5BVABYZN4FK,arn:aws:iam::076944484853:user/aws-sam-cli-managed-dev-pipeline-reso-PipelineUser-I5BVABYZN4FK,"",Never,"for-porta-cloud;",""
+Bracha_Weisberg,arn:aws:iam::076944484853:user/Bracha_Weisberg,"qa	aws-eks-user;",Never,"",""
+builder,arn:aws:iam::076944484853:user/builder,"devops;",Never,"s3-wave-s3	s3-full	AWSCloudFormationFullAccess;",""
+builder_airflow_airbyte_agent,arn:aws:iam::076944484853:user/builder_airflow_airbyte_agent,"Read_only_access;",Never,"access-to-wave-bi-data-bucket;",""
+builder_jenkins_agent,arn:aws:iam::076944484853:user/builder_jenkins_agent,"devops;",Never,"s3-wave-s3	s3-full	s3.wave-s3.lrw	AWSCloudFormationFullAccess;",""
+builder_salesforce_agent,arn:aws:iam::076944484853:user/builder_salesforce_agent,"Read_only_access;",Never,"access-to-wave-bi-data-bucket;",""
+dan_stolero,arn:aws:iam::076944484853:user/dan_stolero,"qa	rnd	aws-eks-user	devops;",Never,"eks-describe-cluster	AllowSelfManagePasswordAccessKeySSH	AmazonRoute53FullAccess	CloudFrontFullAccess	AmazonEC2FullAccess	AmazonRDSFullAccess	IAMFullAccess	AWSSupportAccess	AmazonSESFullAccess	AmazonS3FullAccess;",""
+dimitri,arn:aws:iam::076944484853:user/dimitri,"rnd	devops;",Never,"cognito-full-access	AmazonS3FullAccess;","nlb-modify	s3-new-full-policy;"
+dina_abdykasheva,arn:aws:iam::076944484853:user/dina_abdykasheva,"qa	rnd	aws-eks-user;",Never,"s3.all-wave-qa-bo-conf;",""
+doron_shpinka,arn:aws:iam::076944484853:user/doron_shpinka,"security	aws-eks-user;",Never,"ReadOnlyAccess	SecurityAudit;",""
+dor_achimier,arn:aws:iam::076944484853:user/dor_achimier,"aws-eks-user	noc;",Never,"eks-describe-cluster;",""
+dragan_nedeljkov,arn:aws:iam::076944484853:user/dragan_nedeljkov,"qa	aws-eks-user;",Never,"",""
+eli_haimov,arn:aws:iam::076944484853:user/eli_haimov,"rnd	devops;",Never,"cognito-full-access	AmazonRDSFullAccess	AmazonEKSClusterPolicy	AWSLambda_FullAccess;","ib_permissions_for_lambda_cloudwatch_cloudformation_cognito;"
+eran_zelnik,arn:aws:iam::076944484853:user/eran_zelnik,"devops;",Never,"eks-describe-cluster	rds_full	AllowSelfManagePasswordAccessKeySSH	AmazonRoute53FullAccess	AmazonEC2FullAccess	AdministratorAccess	AWSSupportAccess	AmazonSESFullAccess	AmazonS3FullAccess;",""
+evgeny.rivkin@wavebl.com,arn:aws:iam::076944484853:user/evgeny.rivkin@wavebl.com,"rnd;",Never,"",""
+frontend-deploy-aws-credentials,arn:aws:iam::076944484853:user/frontend-deploy-aws-credentials,"",Never,"",""
+gal,arn:aws:iam::076944484853:user/gal,"rnd	aws-eks-user;",Never,"",""
+gideon_avivi,arn:aws:iam::076944484853:user/gideon_avivi,"qa	aws-eks-user;",Never,"s3.all-wave-qa-bo-conf;",""
+gilad,arn:aws:iam::076944484853:user/gilad,"rnd	aws-eks-user;",Never,"cognito_create_pool	cognito-full-access	AmazonAPIGatewayAdministrator	AmazonDynamoDBFullAccess	AWSLambda_FullAccess	AdministratorAccess-Amplify	AWSCloudTrail_ReadOnlyAccess;",""
+guy.first,arn:aws:iam::076944484853:user/guy.first,"noc;",Never,"IAMUserChangePassword;","AWSRevokeOlderSessions;"
+guy_golan,arn:aws:iam::076944484853:user/guy_golan,"rnd	aws-eks-user;",Never,"",""
+ishay_avraham,arn:aws:iam::076944484853:user/ishay_avraham,"security	aws-eks-user	Read_only_access;",Never,"ReadOnlyAccess	IAMReadOnlyAccess	SecurityAudit	AmazonRoute53DomainsReadOnlyAccess;",""
+jenkins-blduser,arn:aws:iam::076944484853:user/jenkins-blduser,"devops;",Never,"s3-wave-s3	s3-full	AWSCloudFormationFullAccess;",""
+keren_bendelac,arn:aws:iam::076944484853:user/keren_bendelac,"qa	rnd	aws-eks-user;",Never,"",""
+liork,arn:aws:iam::076944484853:user/liork,"rnd	aws-eks-user;",Never,"",""
+mahmoud_kharbat,arn:aws:iam::076944484853:user/mahmoud_kharbat,"rnd	devops	noc;",Never,"",""
+maryia.manets@wavebl.com,arn:aws:iam::076944484853:user/maryia.manets@wavebl.com,"qa	rnd	aws-eks-user;",Never,"AllowSelfManagePasswordAccessKeySSH	IAMUserChangePassword;","AWSRevokeOlderSessions;"
+maty_grosz,arn:aws:iam::076944484853:user/maty_grosz,"devops;",Never,"AmazonGuardDutyFullAccess	AmazonEKSClusterPolicy;",""
+Moamen_Laham,arn:aws:iam::076944484853:user/Moamen_Laham,"noc;",Never,"",""
+moshe_goroff,arn:aws:iam::076944484853:user/moshe_goroff,"qa	rnd	aws-eks-user;",Never,"AmazonElastiCacheReadOnlyAccess	AWSSupportAccess;",""
+or,arn:aws:iam::076944484853:user/or,"",Never,"AdministratorAccess	IAMUserChangePassword;",""
+roni.angress@wavebl.com,arn:aws:iam::076944484853:user/roni.angress@wavebl.com,"aws-eks-user	devops;",Never,"IAMReadOnlyAccess;","IAM_admin;"
+sagi,arn:aws:iam::076944484853:user/sagi,"qa	rnd	aws-eks-user;",Never,"",""
+sam-portal-dev-infra-PipelineUser-41R9W79LL0XJ,arn:aws:iam::076944484853:user/sam-portal-dev-infra-PipelineUser-41R9W79LL0XJ,"",Never,"","AssumeRoles;"
+sam-portal-ib-infra-PipelineUser-16C301NRWIP6A,arn:aws:iam::076944484853:user/sam-portal-ib-infra-PipelineUser-16C301NRWIP6A,"",Never,"","AssumeRoles;"
+sam-portal-preprod-infra-PipelineUser-QIGH1J92WTT3,arn:aws:iam::076944484853:user/sam-portal-preprod-infra-PipelineUser-QIGH1J92WTT3,"",Never,"","AssumeRoles;"
+sergey_karlynski,arn:aws:iam::076944484853:user/sergey_karlynski,"qa	rnd	aws-eks-user;",Never,"",""
+ses-smtp-noreply-SFuser.20231004-135522,arn:aws:iam::076944484853:user/ses-smtp-noreply-SFuser.20231004-135522,"",Never,"AmazonSESFullAccess;","AmazonSesSendingAccess;"
+ses-smtp-noreply-user.20230622-181128,arn:aws:iam::076944484853:user/ses-smtp-noreply-user.20230622-181128,"",Never,"","AmazonSesSendingAccess;"
+ses-smtp-qa-user.20210519-170955,arn:aws:iam::076944484853:user/ses-smtp-qa-user.20210519-170955,"",Never,"","AmazonSesSendingAccess;"
+ses-smtp-tableau-user.20221205-153726,arn:aws:iam::076944484853:user/ses-smtp-tableau-user.20221205-153726,"",Never,"","AmazonSesSendingAccess;"
+ses-smtp-user-notifications@wavebl.com.20230322-183001,arn:aws:iam::076944484853:user/ses-smtp-user-notifications@wavebl.com.20230322-183001,"",Never,"","AmazonSesSendingAccess;"
+ses-smtp-user.20210513-170904,arn:aws:iam::076944484853:user/ses-smtp-user.20210513-170904,"",Never,"","AmazonSesSendingAccess;"
+shira_menda,arn:aws:iam::076944484853:user/shira_menda,"rnd;",Never,"",""
+siem-test,arn:aws:iam::076944484853:user/siem-test,"",Never,"",""
+sqs-clowdt-to-elk,arn:aws:iam::076944484853:user/sqs-clowdt-to-elk,"",Never,"sqs-policy	AmazonS3FullAccess;",""
+test_aws,arn:aws:iam::076944484853:user/test_aws,"qa	rnd	aws-eks-user;",Never,"",""
+tomer_galin,arn:aws:iam::076944484853:user/tomer_galin,"qa	rnd	aws-eks-user;",Never,"cognito-full-for-qa	s3.wave-conf-stage	cloud_watch_readAll	eks-describe-cluster	AllowSelfManagePasswordAccessKeySSH;",""
+yonatan.kalma@wavebl.com,arn:aws:iam::076944484853:user/yonatan.kalma@wavebl.com,"qa	rnd	aws-eks-user;",Never,"ReadAllSecretsPolicy	cloudwatch-r	RDSReadWriteAccessStageWaveDb	AWSLambdaBasicExecutionRole;",""
