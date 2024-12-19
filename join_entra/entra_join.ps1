@@ -1,5 +1,5 @@
 # Variables
-$ppkgUrl = "https://wavebl-my.sharepoint.com/:u:/g/personal/roni_angress_wavebl_onmicrosoft_com/Ed6T-2mzwapBsGJoxmM1784Bg0EtfrZl-deFW6m5ZwVS7Q?e=boVFkH"
+$ppkgUrl = "https://wavebl-my.sharepoint.com/:u:/g/personal/roni_angress_wavebl_onmicrosoft_com/Ed9TvJg9SxlAtcvBg3aYa78BUQYyyEpSJ_TjC9FkdJwKmw?e=cFHcY7"
 $localPath = "$env:ProgramData\entra_join.ppkg"
 $successFilePath = "$env:ProgramData\provisioning_success.txt"
 
